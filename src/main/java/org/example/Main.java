@@ -3,6 +3,10 @@ import org.example.capitulo_1.AreaCilindroRecto;
 import org.example.capitulo_1.DistanciaEntreDosPuntos;
 import org.example.capitulo_1.HipotenusaTrianguloRectangulo;
 import org.example.capitulo_1.VolumenCilindroRecto;
+import org.example.capitulo_2.ClasificarAlumnosSegunPromedio;
+import org.example.capitulo_2.MayorValorTresNumeros;
+import org.example.capitulo_2.MontoPagarConDescuento;
+import org.example.capitulo_2.OrdenarMayorMenorTresNumeros;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,5 +37,28 @@ public class Main {
         vol.mostrarVolumen();
 
         System.out.println("-------------Este es el primer archivo del segundo Capitulo----------------");
+        OrdenarMayorMenorTresNumeros ord = new OrdenarMayorMenorTresNumeros();
+        ord.numero1 = 8;
+        ord.numero2 = 3;
+        ord.numero3 = 6;
+        ord.ordenarMayorMenor();
+        ord.mostrarNumerosOrdenados();
+
+        System.out.println("-------------Este es el segundo archivo del segundo Capitulo----------------");
+        MayorValorTresNumeros may  = new MayorValorTresNumeros();
+        may.numero1 = 10;
+        may.numero2 = 3;
+        may.numero3 = 6;
+        may.encontrarMayor();
+        may.mostrarMayor();
+
+        System.out.println("-------------Este es el tercer archivo del segundo Capitulo----------------");
+        ClasificarAlumnosSegunPromedio alumno = new ClasificarAlumnosSegunPromedio();
+        alumno.promedio = 15;
+        alumno.mostrarClasificacion();
+
+        System.out.println("-------------Este es el cuarto archivo del segundo Capitulo----------------");
+        MontoPagarConDescuento compra = new MontoPagarConDescuento(100.0, 10.0);
+        compra.mostrarMontoConDescuento();
     }
 }
