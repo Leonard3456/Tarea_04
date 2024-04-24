@@ -7,6 +7,10 @@ import org.example.capitulo_2.ClasificarAlumnosSegunPromedio;
 import org.example.capitulo_2.MayorValorTresNumeros;
 import org.example.capitulo_2.MontoPagarConDescuento;
 import org.example.capitulo_2.OrdenarMayorMenorTresNumeros;
+import org.example.capitulo_3.CalculadorDeCincoFunciones;
+import org.example.capitulo_3.DiasMes;
+import org.example.capitulo_3.EstacionesAnio;
+import org.example.capitulo_3.SignosZodiaco;
 
 public class Main {
     public static void main(String[] args) {
@@ -60,5 +64,27 @@ public class Main {
         System.out.println("-------------Este es el cuarto archivo del segundo Capitulo----------------");
         MontoPagarConDescuento compra = new MontoPagarConDescuento(100.0, 10.0);
         compra.mostrarMontoConDescuento();
+
+        System.out.println("-------------Este es el primer archivo del tercer Capitulo----------------");
+        CalculadorDeCincoFunciones func = new CalculadorDeCincoFunciones();
+        func.numero1 = 24;
+        func.numero2 = 5;
+        func.mostrarResultados();
+
+        System.out.println("-------------Este es el segundo archivo del tercer Capitulo----------------");
+        SignosZodiaco persona = new SignosZodiaco();
+        persona.dia = 25;
+        persona.mes = 5;
+        persona.mostrarSignoZodiaco();
+
+        System.out.println("-------------Este es el tercer archivo del tercer Capitulo----------------");
+        DiasMes diasMes = new DiasMes();
+        diasMes.mes = 2;
+        diasMes.mostrarDiasEnMes();
+
+        System.out.println("-------------Este es el cuarto archivo del tercer Capitulo----------------");
+        EstacionesAnio estaciones = new EstacionesAnio();
+        estaciones.mes = 5;
+        estaciones.mostrarEstacion();
     }
 }

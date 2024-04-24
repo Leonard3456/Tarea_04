@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcf5dde0-40ab-452b-a51b-37de7c25ff34" name="Changes" comment="primer capitulo completo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/ClasificarAlumnosSegunPromedio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/MayorValorTresNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/MontoPagarConDescuento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/OrdenarMayorMenorTresNumeros.java" afterDir="false" />
+    <list default="true" id="bcf5dde0-40ab-452b-a51b-37de7c25ff34" name="Changes" comment="segundo capitulo completo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/CalculadorDeCincoFunciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/DiasMes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/EstacionesAnio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/SignosZodiaco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -48,24 +48,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/leona/IdeaProjects/Tarea 04/src/main/java/org/example/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DiasMes.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/leona/IdeaProjects/Tarea 04/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DiasMes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.capitulo_3.DiasMes" />
+      <module name="Tarea_04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.capitulo_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Tarea_04" />
@@ -202,6 +216,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DiasMes" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713888666788</updated>
       <workItem from="1713888668205" duration="12138000" />
-      <workItem from="1713975957358" duration="2707000" />
+      <workItem from="1713975957358" duration="8376000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -248,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713895909729</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="segundo capitulo completo">
+      <option name="closed" value="true" />
+      <created>1713979096421</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713979096421</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +281,7 @@
     <MESSAGE value="a" />
     <MESSAGE value="cambio 0" />
     <MESSAGE value="primer capitulo completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="primer capitulo completo" />
+    <MESSAGE value="segundo capitulo completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="segundo capitulo completo" />
   </component>
 </project>
