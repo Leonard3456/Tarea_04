@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcf5dde0-40ab-452b-a51b-37de7c25ff34" name="Changes" comment="segundo capitulo completo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/CalculadorDeCincoFunciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/DiasMes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/EstacionesAnio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/SignosZodiaco.java" afterDir="false" />
+    <list default="true" id="bcf5dde0-40ab-452b-a51b-37de7c25ff34" name="Changes" comment="tercer capitulo completo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/FactorizarNumero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/IndicarSiEsNumeroPrimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/IndicarSiUnNumeroEsPerfecto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/LeerNumero_e_InvertirSusCifras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/CalculoDelValorDePi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/CantidadNumerosPositivosNegativosParesImparesIngresados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/MaximaAreaDeTerreno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/RaizCuadradaPorMetodoNewton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_6/MayorDe_n_Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_6/PromedioDe_n_Numeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_6/SumaDeFracciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_6/ValorNumericoDeUnPolinomioDeGradoN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/EliminaElementosRepetidosEnUnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/LeerNumerosDeUnArrayEImprimirlos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/MediaAritmeticaDeUnConjuntoDeDatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/OrdenamientoPorBurbuja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/DivisoresComunesDeDosNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/NumeroPrimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/Primeros_m_MultiplosDe_n.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/TeoremaDelCoseno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -48,24 +64,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DiasMes.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/leona/IdeaProjects/Tarea 04/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DiasMes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/leona/IdeaProjects/Tarea 04/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="DiasMes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.capitulo_3.DiasMes" />
@@ -237,7 +253,9 @@
       <option name="presentableId" value="Default" />
       <updated>1713888666788</updated>
       <workItem from="1713888668205" duration="12138000" />
-      <workItem from="1713975957358" duration="8376000" />
+      <workItem from="1713975957358" duration="8936000" />
+      <workItem from="1714065301544" duration="1399000" />
+      <workItem from="1714144298358" duration="10112000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -271,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713979096421</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tercer capitulo completo">
+      <option name="closed" value="true" />
+      <created>1713989402768</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713989402768</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +308,7 @@
     <MESSAGE value="cambio 0" />
     <MESSAGE value="primer capitulo completo" />
     <MESSAGE value="segundo capitulo completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="segundo capitulo completo" />
+    <MESSAGE value="tercer capitulo completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="tercer capitulo completo" />
   </component>
 </project>

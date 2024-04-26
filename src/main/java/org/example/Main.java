@@ -11,6 +11,26 @@ import org.example.capitulo_3.CalculadorDeCincoFunciones;
 import org.example.capitulo_3.DiasMes;
 import org.example.capitulo_3.EstacionesAnio;
 import org.example.capitulo_3.SignosZodiaco;
+import org.example.capitulo_4.FactorizarNumero;
+import org.example.capitulo_4.IndicarSiEsNumeroPrimo;
+import org.example.capitulo_4.IndicarSiUnNumeroEsPerfecto;
+import org.example.capitulo_4.LeerNumero_e_InvertirSusCifras;
+import org.example.capitulo_5.CalculoDelValorDePi;
+import org.example.capitulo_5.CantidadNumerosPositivosNegativosParesImparesIngresados;
+import org.example.capitulo_5.MaximaAreaDeTerreno;
+import org.example.capitulo_5.RaizCuadradaPorMetodoNewton;
+import org.example.capitulo_6.MayorDe_n_Numeros;
+import org.example.capitulo_6.PromedioDe_n_Numeros;
+import org.example.capitulo_6.SumaDeFracciones;
+import org.example.capitulo_6.ValorNumericoDeUnPolinomioDeGradoN;
+import org.example.capitulo_7.EliminaElementosRepetidosEnUnArray;
+import org.example.capitulo_7.LeerNumerosDeUnArrayEImprimirlos;
+import org.example.capitulo_7.MediaAritmeticaDeUnConjuntoDeDatos;
+import org.example.capitulo_7.OrdenamientoPorBurbuja;
+import org.example.capitulo_8.DivisoresComunesDeDosNumeros;
+import org.example.capitulo_8.NumeroPrimo;
+import org.example.capitulo_8.Primeros_m_MultiplosDe_n;
+import org.example.capitulo_8.TeoremaDelCoseno;
 
 public class Main {
     public static void main(String[] args) {
@@ -86,5 +106,89 @@ public class Main {
         EstacionesAnio estaciones = new EstacionesAnio();
         estaciones.mes = 5;
         estaciones.mostrarEstacion();
+
+        System.out.println("-------------Este es el primero archivo del cuarto Capitulo----------------");
+        FactorizarNumero factor = new FactorizarNumero(18);
+        factor.MostrarFactores();
+
+        System.out.println("-------------Este es el segundo archivo del cuarto Capitulo----------------");
+        IndicarSiEsNumeroPrimo verificador = new IndicarSiEsNumeroPrimo();
+        verificador.numero = 5;
+        verificador.MostrarSiEsNumeroPrimo();
+
+        System.out.println("-------------Este es el tercer archivo del cuarto Capitulo----------------");
+        IndicarSiUnNumeroEsPerfecto perfec = new IndicarSiUnNumeroEsPerfecto();
+        perfec.numero = 6;
+        perfec.mostrarSiEsPerfecto();
+
+        System.out.println("-------------Este es el cuarto archivo del cuarto Capitulo----------------");
+        LeerNumero_e_InvertirSusCifras leer = new LeerNumero_e_InvertirSusCifras();
+        leer.numero = 19;
+        leer.mostrarNumeroInvertido();
+
+        System.out.println("-------------Este es el primero archivo del quinto Capitulo----------------");
+        CalculoDelValorDePi pi = new CalculoDelValorDePi();
+        pi.mostrarValorPi();
+
+        System.out.println("-------------Este es el segundo archivo del quinto Capitulo----------------");
+        RaizCuadradaPorMetodoNewton raiz = new RaizCuadradaPorMetodoNewton();
+        raiz.numero = 9;
+        raiz.mostrarRaizCuadrada();
+
+        System.out.println("-------------Este es el tercer archivo del quinto Capitulo----------------");
+        CantidadNumerosPositivosNegativosParesImparesIngresados cant = new CantidadNumerosPositivosNegativosParesImparesIngresados();
+        cant.MostrarNumeros();
+
+        System.out.println("-------------Este es el cuarto archivo del quinto Capitulo----------------");
+        MaximaAreaDeTerreno max = new MaximaAreaDeTerreno();
+        max.MostrarAreaDeTerreno();
+
+        System.out.println("-------------Este es el primer archivo del sexto Capitulo----------------");
+        MayorDe_n_Numeros mayor = new MayorDe_n_Numeros();
+        mayor.mostrarMayor();
+
+        System.out.println("-------------Este es el segundo archivo del sexto Capitulo----------------");
+        PromedioDe_n_Numeros prom = new PromedioDe_n_Numeros();
+        prom.mostrarPromedio();
+
+        System.out.println("-------------Este es el tercer archivo del sexto Capitulo----------------");
+        SumaDeFracciones suma = new SumaDeFracciones();
+        suma.sumafracciones();
+
+        System.out.println("-------------Este es el cuarto archivo del sexto Capitulo----------------");
+        ValorNumericoDeUnPolinomioDeGradoN valor = new ValorNumericoDeUnPolinomioDeGradoN();
+        valor.mostrarValor();
+
+        System.out.println("-------------Este es el primer archivo del septimo Capitulo----------------");
+        LeerNumerosDeUnArrayEImprimirlos leernum = new LeerNumerosDeUnArrayEImprimirlos();
+        leernum.mostrarArray();
+
+        System.out.println("-------------Este es el segundo archivo del septimo Capitulo----------------");
+        MediaAritmeticaDeUnConjuntoDeDatos media = new MediaAritmeticaDeUnConjuntoDeDatos();
+        media.mostrarMedia();
+
+        System.out.println("-------------Este es el tercer archivo del septimo Capitulo----------------");
+        EliminaElementosRepetidosEnUnArray eliminar = new EliminaElementosRepetidosEnUnArray();
+        eliminar.mostrarElementos();
+
+        System.out.println("-------------Este es el cuarto archivo del septimo Capitulo----------------");
+        OrdenamientoPorBurbuja ordenar = new OrdenamientoPorBurbuja();
+        ordenar.mostrarArreglo();
+
+        System.out.println("-------------Este es el primer archivo del octavo Capitulo----------------");
+        Primeros_m_MultiplosDe_n multiplos = new Primeros_m_MultiplosDe_n();
+        multiplos.mostrarMultiplos();
+
+        System.out.println("-------------Este es el segundo archivo del octavo Capitulo----------------");
+        NumeroPrimo primo = new NumeroPrimo();
+        primo.primo();
+
+        System.out.println("-------------Este es el tercer archivo del octavo Capitulo----------------");
+        DivisoresComunesDeDosNumeros divisor = new DivisoresComunesDeDosNumeros();
+        divisor.mostrarDivisores();
+
+        System.out.println("-------------Este es el cuarto archivo del octavo Capitulo----------------");
+        TeoremaDelCoseno coseno = new TeoremaDelCoseno();
+        coseno.mostrarTeorema();
     }
 }
