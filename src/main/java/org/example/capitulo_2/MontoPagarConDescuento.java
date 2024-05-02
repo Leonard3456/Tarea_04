@@ -1,20 +1,17 @@
 package org.example.capitulo_2;
 
 public class MontoPagarConDescuento {
-    public double monto;
-    public double porcentajeDescuento;
+    private double monto;
+    private double porcentajeDescuento;
 
-    public MontoPagarConDescuento(double monto, double porcentajeDescuento) {
-        this.monto = monto;
-        this.porcentajeDescuento = porcentajeDescuento;
-    }
+    double nuevoMonto = 200;
+    double porcentaje = 15;
 
     public double calcularMontoConDescuento() {
-        double descuento = monto * (porcentajeDescuento / 100.0);
-        return monto - descuento;
+        double descuento = nuevoMonto * (porcentaje / 100.0);
+        return nuevoMonto - descuento;
     }
 
-    // Método para mostrar el monto a pagar con el descuento aplicado
     public void mostrarMontoConDescuento() {
         double montoConDescuento = calcularMontoConDescuento();
         System.out.println("El monto a pagar con descuento es: " + montoConDescuento);

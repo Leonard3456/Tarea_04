@@ -4,29 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcf5dde0-40ab-452b-a51b-37de7c25ff34" name="Changes" comment="tercer capitulo completo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/FactorizarNumero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/IndicarSiEsNumeroPrimo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/IndicarSiUnNumeroEsPerfecto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/LeerNumero_e_InvertirSusCifras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/CalculoDelValorDePi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/CantidadNumerosPositivosNegativosParesImparesIngresados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/MaximaAreaDeTerreno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/RaizCuadradaPorMetodoNewton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_6/MayorDe_n_Numeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_6/PromedioDe_n_Numeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_6/SumaDeFracciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_6/ValorNumericoDeUnPolinomioDeGradoN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/EliminaElementosRepetidosEnUnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/LeerNumerosDeUnArrayEImprimirlos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/MediaAritmeticaDeUnConjuntoDeDatos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/OrdenamientoPorBurbuja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/DivisoresComunesDeDosNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/NumeroPrimo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/Primeros_m_MultiplosDe_n.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/TeoremaDelCoseno.java" afterDir="false" />
+    <list default="true" id="bcf5dde0-40ab-452b-a51b-37de7c25ff34" name="Changes" comment="capitulos completos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/MontoPagarConDescuento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/MontoPagarConDescuento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/FactorizarNumero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/FactorizarNumero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +237,8 @@
       <workItem from="1713888668205" duration="12138000" />
       <workItem from="1713975957358" duration="8936000" />
       <workItem from="1714065301544" duration="1399000" />
-      <workItem from="1714144298358" duration="10112000" />
+      <workItem from="1714144298358" duration="11034000" />
+      <workItem from="1714664161206" duration="3683000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -297,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713989402768</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="capitulos completos">
+      <option name="closed" value="true" />
+      <created>1714155901682</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714155901682</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,6 +300,7 @@
     <MESSAGE value="primer capitulo completo" />
     <MESSAGE value="segundo capitulo completo" />
     <MESSAGE value="tercer capitulo completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="tercer capitulo completo" />
+    <MESSAGE value="capitulos completos" />
+    <option name="LAST_COMMIT_MESSAGE" value="capitulos completos" />
   </component>
 </project>

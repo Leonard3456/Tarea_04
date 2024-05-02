@@ -82,7 +82,7 @@ public class Main {
         alumno.mostrarClasificacion();
 
         System.out.println("-------------Este es el cuarto archivo del segundo Capitulo----------------");
-        MontoPagarConDescuento compra = new MontoPagarConDescuento(100.0, 10.0);
+        MontoPagarConDescuento compra = new MontoPagarConDescuento();
         compra.mostrarMontoConDescuento();
 
         System.out.println("-------------Este es el primer archivo del tercer Capitulo----------------");
@@ -108,7 +108,7 @@ public class Main {
         estaciones.mostrarEstacion();
 
         System.out.println("-------------Este es el primero archivo del cuarto Capitulo----------------");
-        FactorizarNumero factor = new FactorizarNumero(18);
+        FactorizarNumero factor = new FactorizarNumero();
         factor.MostrarFactores();
 
         System.out.println("-------------Este es el segundo archivo del cuarto Capitulo----------------");
