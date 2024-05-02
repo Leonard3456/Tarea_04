@@ -11,7 +11,7 @@ public class TeoremaDelCoseno {
         System.out.println("El tercer lado mide " + a);
     }
 
-    public static float calcularLadoA(float b, float c, float alfa) {
+    public float calcularLadoA(float b, float c, float alfa) {
         return (float) Math.sqrt(b * b + c * c - 2 * b * c * Math.cos(alfa)); //es una función en Java que calcula el coseno de un ángulo dad
     }
 }

@@ -2,7 +2,7 @@ package org.example.capitulo_5;
 
 public class CantidadNumerosPositivosNegativosParesImparesIngresados {
 
-    public static void contarNumeros(int... numeros) {
+    public void contarNumeros(int... numeros) {
         int positivos = 0, negativos = 0, pares = 0, impares = 0;
 
         for (int numero : numeros) {

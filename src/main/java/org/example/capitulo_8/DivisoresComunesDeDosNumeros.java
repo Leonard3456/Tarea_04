@@ -9,7 +9,7 @@ public class DivisoresComunesDeDosNumeros {
         encontrarDivisoresComunes(num1, num2);
     }
 
-    public static void encontrarDivisoresComunes(int num1, int num2) {
+    public void encontrarDivisoresComunes(int num1, int num2) {
         int menor = Math.min(num1, num2);
         for (int i = 1; i <= menor; i++) {
             if (num1 % i == 0 && num2 % i == 0) {

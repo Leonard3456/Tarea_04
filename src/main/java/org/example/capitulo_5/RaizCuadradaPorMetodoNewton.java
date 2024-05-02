@@ -1,10 +1,10 @@
 package org.example.capitulo_5;
 
 public class RaizCuadradaPorMetodoNewton {
-    public static double numero;
-    public static double tolerancia = 0.0001;
+    public double numero;
+    public double tolerancia = 0.0001;
 
-    public static double calcularRaizCuadrada() {
+    public double calcularRaizCuadrada() {
         double x0 = numero / 2; // Aproximación inicial
         double x1;
 

@@ -1,7 +1,7 @@
 package org.example.capitulo_8;
 
 public class NumeroPrimo {
-    public static boolean esPrimo(int n) {
+    public boolean esPrimo(int n) {
         if (n <= 1) {
             return false;
         }
