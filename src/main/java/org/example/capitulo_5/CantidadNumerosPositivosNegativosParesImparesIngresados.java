@@ -1,7 +1,12 @@
 package org.example.capitulo_5;
 
 public class CantidadNumerosPositivosNegativosParesImparesIngresados {
-
+    // Definimos los números
+    int numero1 = 12;
+    int numero2 = -5;
+    int numero3 = 8;
+    int numero4 = -3;
+    int numero5 = 10;
     public void contarNumeros(int... numeros) {
         int positivos = 0, negativos = 0, pares = 0, impares = 0;
 
@@ -19,7 +24,6 @@ public class CantidadNumerosPositivosNegativosParesImparesIngresados {
             }
         }
 
-        // Mostrar los resultados
         System.out.println("Cantidad de números positivos: " + positivos);
         System.out.println("Cantidad de números negativos: " + negativos);
         System.out.println("Cantidad de números pares: " + pares);
@@ -27,13 +31,6 @@ public class CantidadNumerosPositivosNegativosParesImparesIngresados {
     }
 
     public void MostrarNumeros() {
-        // Definimos los números
-        int numero1 = 12;
-        int numero2 = -5;
-        int numero3 = 8;
-        int numero4 = -3;
-        int numero5 = 10;
-
         contarNumeros(numero1, numero2, numero3, numero4, numero5);
     }
 }

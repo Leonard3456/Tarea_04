@@ -1,9 +1,6 @@
 package org.example.capitulo_2;
 
 public class MontoPagarConDescuento {
-    private double monto;
-    private double porcentajeDescuento;
-
     double nuevoMonto = 200;
     double porcentaje = 15;
 

@@ -1,8 +1,8 @@
 package org.example.capitulo_8;
 
-public class Primeros_m_MultiplosDe_n {
+public class PrimerosmMultiplosDen {
 
-    public static int[] primerosMultiplos(int m, int n) {
+    public int[] primerosMultiplos(int m, int n) {
         int[] multiplos = new int[m];
         for (int i = 0; i < m; i++) {
             multiplos[i] = n * (i + 1);

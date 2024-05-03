@@ -1,6 +1,10 @@
 package org.example.capitulo_8;
 
 public class TeoremaDelCoseno {
+    public float calcularLadoA(float b, float c, float alfa) {
+        return (float) Math.sqrt(b * b + c * c - 2 * b * c * Math.cos(alfa));
+        //es una función en Java que calcula el coseno de un ángulo dad
+    }
 
     public void mostrarTeorema() {
         float b = 5.0f; //el f es para que se trate como float y no double
@@ -11,7 +15,5 @@ public class TeoremaDelCoseno {
         System.out.println("El tercer lado mide " + a);
     }
 
-    public float calcularLadoA(float b, float c, float alfa) {
-        return (float) Math.sqrt(b * b + c * c - 2 * b * c * Math.cos(alfa)); //es una función en Java que calcula el coseno de un ángulo dad
-    }
+
 }

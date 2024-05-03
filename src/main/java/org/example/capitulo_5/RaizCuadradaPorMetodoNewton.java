@@ -1,6 +1,6 @@
 package org.example.capitulo_5;
 
-public class RaizCuadradaPorMetodoNewton {
+public class                                                                                                                                            RaizCuadradaPorMetodoNewton {
     public double numero;
     public double tolerancia = 0.0001;
 

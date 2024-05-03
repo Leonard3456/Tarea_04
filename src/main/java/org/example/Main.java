@@ -29,7 +29,7 @@ import org.example.capitulo_7.MediaAritmeticaDeUnConjuntoDeDatos;
 import org.example.capitulo_7.OrdenamientoPorBurbuja;
 import org.example.capitulo_8.DivisoresComunesDeDosNumeros;
 import org.example.capitulo_8.NumeroPrimo;
-import org.example.capitulo_8.Primeros_m_MultiplosDe_n;
+import org.example.capitulo_8.PrimerosmMultiplosDen;
 import org.example.capitulo_8.TeoremaDelCoseno;
 
 public class Main {
@@ -176,7 +176,7 @@ public class Main {
         ordenar.mostrarArreglo();
 
         System.out.println("-------------Este es el primer archivo del octavo Capitulo----------------");
-        Primeros_m_MultiplosDe_n multiplos = new Primeros_m_MultiplosDe_n();
+        PrimerosmMultiplosDen multiplos = new PrimerosmMultiplosDen();
         multiplos.mostrarMultiplos();
 
         System.out.println("-------------Este es el segundo archivo del octavo Capitulo----------------");
