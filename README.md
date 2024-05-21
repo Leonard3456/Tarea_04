@@ -1,1 +1,1 @@
-![trabajo 4](https://github.com/Leonard3456/Tarea_04/assets/153341527/95f17f25-50f7-439e-8251-2176aafb9785)
+![trabajo N°7](https://github.com/Leonard3456/Tarea_04/assets/153341527/2096fdcd-7169-4574-80d2-7db7733173ed)
