@@ -1,38 +1,55 @@
 package org.example.capitulo_3;
 
 public class SignosZodiaco {
-    public int dia;
-    public int mes;
+    private int dia;
+    private int mes;
+
+    public int getDia() {
+        return dia;
+    }
+
+    public void setDia(int dia) {
+        this.dia = dia;
+    }
+
+    public int getMes() {
+        return mes;
+    }
+
+    public void setMes(int mes) {
+        this.mes = mes;
+    }
 
     public String determinarSignoZodiaco() {
-        if ((mes == 3 && dia >= 21) || (mes == 4 && dia <= 19)) {
+        if ((getMes() == 3 && getDia() >= 21) || (getMes() == 4 && getDia() <= 19)) {
             return "Aries";
-        } else if ((mes == 4 && dia >= 20) || (mes == 5 && dia <= 20)) {
+        } else if ((getMes() == 4 && getDia() >= 20) || (getMes() == 5 && getDia() <= 20)) {
             return "Tauro";
-        } else if ((mes == 5 && dia >= 21) || (mes == 6 && dia <= 20)) {
+        } else if ((getMes() == 5 && getDia() >= 21) || (getMes() == 6 && getDia() <= 20)) {
             return "Géminis";
-        } else if ((mes == 6 && dia >= 21) || (mes == 7 && dia <= 22)) {
+        } else if ((getMes() == 6 && getDia() >= 21) || (getMes() == 7 && getDia() <= 22)) {
             return "Cáncer";
-        } else if ((mes == 7 && dia >= 23) || (mes == 8 && dia <= 22)) {
+        } else if ((getMes() == 7 && getDia() >= 23) || (getMes() == 8 && getDia() <= 22)) {
             return "Leo";
-        } else if ((mes == 8 && dia >= 23) || (mes == 9 && dia <= 22)) {
+        } else if ((getMes() == 8 && getDia() >= 23) || (getMes() == 9 && getDia() <= 22)) {
             return "Virgo";
-        } else if ((mes == 9 && dia >= 23) || (mes == 10 && dia <= 22)) {
+        } else if ((getMes() == 9 && getDia() >= 23) || (getMes() == 10 && getDia() <= 22)) {
             return "Libra";
-        } else if ((mes == 10 && dia >= 23) || (mes == 11 && dia <= 21)) {
+        } else if ((getMes() == 10 && getDia() >= 23) || (getMes() == 11 && getDia() <= 21)) {
             return "Escorpio";
-        } else if ((mes == 11 && dia >= 22) || (mes == 12 && dia <= 21)) {
+        } else if ((getMes() == 11 && getDia() >= 22) || (getMes() == 12 && getDia() <= 21)) {
             return "Sagitario";
-        } else if ((mes == 12 && dia >= 22) || (mes == 1 && dia <= 19)) {
+        } else if ((getMes() == 12 && getDia() >= 22) || (getMes() == 1 && getDia() <= 19)) {
             return "Capricornio";
-        } else if ((mes == 1 && dia >= 20) || (mes == 2 && dia <= 18)) {
+        } else if ((getMes() == 1 && getDia() >= 20) || (getMes() == 2 && getDia() <= 18)) {
             return "Acuario";
-        } else if ((mes == 2 && dia >= 19) || (mes == 3 && dia <= 20)) {
+        } else if ((getMes() == 2 && getDia() >= 19) || (getMes() == 3 && getDia() <= 20)) {
             return "Piscis";
         } else {
             return "Fecha no válida";
         }
     }
+
     public void mostrarSignoZodiaco() {
         System.out.println("El signo zodiacal es: " + determinarSignoZodiaco());
     }

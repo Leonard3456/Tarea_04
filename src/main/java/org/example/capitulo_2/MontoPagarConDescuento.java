@@ -1,12 +1,28 @@
 package org.example.capitulo_2;
 
 public class MontoPagarConDescuento {
-    double nuevoMonto = 200;
-    double porcentaje = 15;
+    private double nuevoMonto;
+    private double porcentaje ;
+
+    public double getNuevoMonto() {
+        return nuevoMonto;
+    }
+
+    public void setNuevoMonto(double nuevoMonto) {
+        this.nuevoMonto = nuevoMonto;
+    }
+
+    public double getPorcentaje() {
+        return porcentaje;
+    }
+
+    public void setPorcentaje(double porcentaje) {
+        this.porcentaje = porcentaje;
+    }
 
     public double calcularMontoConDescuento() {
-        double descuento = nuevoMonto * (porcentaje / 100.0);
-        return nuevoMonto - descuento;
+        double descuento = getNuevoMonto() * (getPorcentaje() / 100.0);
+        return getNuevoMonto() - descuento;
     }
 
     public void mostrarMontoConDescuento() {

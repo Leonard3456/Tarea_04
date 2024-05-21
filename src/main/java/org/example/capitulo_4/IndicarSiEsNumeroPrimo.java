@@ -1,14 +1,23 @@
 package org.example.capitulo_4;
 
 public class IndicarSiEsNumeroPrimo {
-    public int numero;
+    private int numero;
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
     public boolean esPrimo() {
-        if (numero <= 1) {
+        if (getNumero() <= 1) {
             return false;
         }
         // Verificamos si el número es divisible solo por 1 y por sí mismo
-        for (int i = 2; i <= Math.sqrt(numero); i++) {
-            if (numero % i == 0) {
+        for (int i = 2; i <= Math.sqrt(getNumero()); i++) {
+            if (getNumero() % i == 0) {
                 return false;
             }
         }

@@ -1,11 +1,27 @@
 package org.example.capitulo_1;
 
 public class VolumenCilindroRecto {
-    public double radio;
-    public double altura;
+    private double radio;
+    private double altura;
+
+    public double getRadio() {
+        return radio;
+    }
+
+    public void setRadio(double radio) {
+        this.radio = radio;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
 
     public double calcularVolumen() {
-        double volumen = Math.PI * Math.pow(radio, 2) * altura;
+        double volumen = Math.PI * Math.pow(getRadio(), 2) * getAltura();
         return volumen;
     }
 

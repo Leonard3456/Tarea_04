@@ -36,94 +36,98 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("-------------Este es el primer archivo del primer Capitulo----------------");
         AreaCilindroRecto area = new AreaCilindroRecto();
-        area.radio = 6;
-        area.altura = 13;
+        area.setRadio(10);
+        area.setAltura(5);
         area.mostrarArea();
 
         System.out.println("-------------Este es el segundo archivo del primer Capitulo----------------");
         DistanciaEntreDosPuntos dist = new DistanciaEntreDosPuntos();
-        dist.x1 = 2;
-        dist.x2 = 3;
-        dist.y1 = 7;
-        dist.y2 = 4;
+        dist.setX1(2);
+        dist.setX2(3);
+        dist.setY1(7);
+        dist.setY2(4);
         dist.mostrarDistancia();
 
         System.out.println("-------------Este es el tercer archivo del primer Capitulo----------------");
         HipotenusaTrianguloRectangulo hip = new HipotenusaTrianguloRectangulo();
-        hip.cateto1 = 12;
-        hip.cateto2 = 6;
+        hip.setCateto1(12);
+        hip.setCateto2(6);
         hip.mostrarHipotenusa();
 
         System.out.println("-------------Este es el cuarto archivo del primer Capitulo----------------");
         VolumenCilindroRecto vol = new VolumenCilindroRecto();
-        vol.altura = 13;
-        vol.radio = 6;
+        vol.setAltura(13);
+        vol.setRadio(6);
         vol.mostrarVolumen();
 
         System.out.println("-------------Este es el primer archivo del segundo Capitulo----------------");
         OrdenarMayorMenorTresNumeros ord = new OrdenarMayorMenorTresNumeros();
-        ord.numero1 = 8;
-        ord.numero2 = 3;
-        ord.numero3 = 6;
+        ord.setNumero1(8);
+        ord.setNumero2(3);
+        ord.setNumero3(6);
+        ord.darValores();
         ord.ordenarMayorMenor();
         ord.mostrarNumerosOrdenados();
 
         System.out.println("-------------Este es el segundo archivo del segundo Capitulo----------------");
         MayorValorTresNumeros may  = new MayorValorTresNumeros();
-        may.numero1 = 10;
-        may.numero2 = 3;
-        may.numero3 = 6;
+        may.setNumero1(10);
+        may.setNumero2(3);
+        may.setNumero3(6);
         may.encontrarMayor();
         may.mostrarMayor();
 
         System.out.println("-------------Este es el tercer archivo del segundo Capitulo----------------");
         ClasificarAlumnosSegunPromedio alumno = new ClasificarAlumnosSegunPromedio();
-        alumno.promedio = 15;
+        alumno.setPromedio(15);
         alumno.mostrarClasificacion();
 
         System.out.println("-------------Este es el cuarto archivo del segundo Capitulo----------------");
         MontoPagarConDescuento compra = new MontoPagarConDescuento();
+        compra.setNuevoMonto(200);
+        compra.setPorcentaje(15);
         compra.mostrarMontoConDescuento();
 
         System.out.println("-------------Este es el primer archivo del tercer Capitulo----------------");
         CalculadorDeCincoFunciones func = new CalculadorDeCincoFunciones();
-        func.numero1 = 24;
-        func.numero2 = 5;
+        func.setNumero1(24);
+        func.setNumero2(5);
         func.mostrarResultados();
 
         System.out.println("-------------Este es el segundo archivo del tercer Capitulo----------------");
         SignosZodiaco persona = new SignosZodiaco();
-        persona.dia = 25;
-        persona.mes = 5;
+        persona.setDia(25);
+        persona.setMes(1);
         persona.mostrarSignoZodiaco();
 
         System.out.println("-------------Este es el tercer archivo del tercer Capitulo----------------");
         DiasMes diasMes = new DiasMes();
-        diasMes.mes = 2;
+        diasMes.setMes(2);
         diasMes.mostrarDiasEnMes();
 
         System.out.println("-------------Este es el cuarto archivo del tercer Capitulo----------------");
         EstacionesAnio estaciones = new EstacionesAnio();
-        estaciones.mes = 5;
+        estaciones.setMes(5);
         estaciones.mostrarEstacion();
 
         System.out.println("-------------Este es el primero archivo del cuarto Capitulo----------------");
-        FactorizarNumero factor = new FactorizarNumero();
-        factor.MostrarFactores();
+        FactorizarNumero factorizar = new FactorizarNumero();
+        factorizar.setNum(18);  // Establecer el número a factorizar
+        factorizar.mostrarFactores();
 
         System.out.println("-------------Este es el segundo archivo del cuarto Capitulo----------------");
         IndicarSiEsNumeroPrimo verificador = new IndicarSiEsNumeroPrimo();
-        verificador.numero = 5;
+        verificador.setNumero(5);
         verificador.MostrarSiEsNumeroPrimo();
 
         System.out.println("-------------Este es el tercer archivo del cuarto Capitulo----------------");
         IndicarSiUnNumeroEsPerfecto perfec = new IndicarSiUnNumeroEsPerfecto();
-        perfec.numero = 6;
+        perfec.setNumero(6);
         perfec.mostrarSiEsPerfecto();
 
         System.out.println("-------------Este es el cuarto archivo del cuarto Capitulo----------------");
         LeerNumero_e_InvertirSusCifras leer = new LeerNumero_e_InvertirSusCifras();
-        leer.numero = 19;
+        leer.setNumero(19);
         leer.mostrarNumeroInvertido();
 
         System.out.println("-------------Este es el primero archivo del quinto Capitulo----------------");
@@ -132,7 +136,7 @@ public class Main {
 
         System.out.println("-------------Este es el segundo archivo del quinto Capitulo----------------");
         RaizCuadradaPorMetodoNewton raiz = new RaizCuadradaPorMetodoNewton();
-        raiz.numero = 9;
+        raiz.setNumero(9);
         raiz.mostrarRaizCuadrada();
 
         System.out.println("-------------Este es el tercer archivo del quinto Capitulo----------------");
@@ -164,8 +168,10 @@ public class Main {
         leernum.mostrarArray();
 
         System.out.println("-------------Este es el segundo archivo del septimo Capitulo----------------");
-        MediaAritmeticaDeUnConjuntoDeDatos media = new MediaAritmeticaDeUnConjuntoDeDatos();
-        media.mostrarMedia();
+        MediaAritmeticaDeUnConjuntoDeDatos mediaAritmetica = new MediaAritmeticaDeUnConjuntoDeDatos();
+        double[] datos = {10, 20, 30, 40, 50};
+        mediaAritmetica.setDatos(datos);
+        mediaAritmetica.mostrarMedia();
 
         System.out.println("-------------Este es el tercer archivo del septimo Capitulo----------------");
         EliminaElementosRepetidosEnUnArray eliminar = new EliminaElementosRepetidosEnUnArray();
@@ -177,14 +183,19 @@ public class Main {
 
         System.out.println("-------------Este es el primer archivo del octavo Capitulo----------------");
         PrimerosmMultiplosDen multiplos = new PrimerosmMultiplosDen();
+        multiplos.setM(5);
+        multiplos.setN(7);
         multiplos.mostrarMultiplos();
 
         System.out.println("-------------Este es el segundo archivo del octavo Capitulo----------------");
         NumeroPrimo primo = new NumeroPrimo();
+        primo.setNumero(17);
         primo.primo();
 
         System.out.println("-------------Este es el tercer archivo del octavo Capitulo----------------");
         DivisoresComunesDeDosNumeros divisor = new DivisoresComunesDeDosNumeros();
+        divisor.setNum1(12);
+        divisor.setNum2(18);
         divisor.mostrarDivisores();
 
         System.out.println("-------------Este es el cuarto archivo del octavo Capitulo----------------");

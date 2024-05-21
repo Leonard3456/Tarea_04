@@ -1,14 +1,22 @@
 package org.example.capitulo_2;
 
 public class ClasificarAlumnosSegunPromedio {
-    public double promedio;
+    private double promedio;
+
+    public double getPromedio() {
+        return promedio;
+    }
+
+    public void setPromedio(double promedio) {
+        this.promedio = promedio;
+    }
 
     public String clasificarAlumno() {
-        if (promedio >= 9.0) {
+        if (getPromedio() >= 9.0) {
             return "Excelente";
-        } else if (promedio >= 7.0) {
+        } else if (getPromedio() >= 7.0) {
             return "Bueno";
-        } else if (promedio >= 5.0) {
+        } else if (getPromedio() >= 5.0) {
             return "Regular";
         } else {
             return "Deficiente";

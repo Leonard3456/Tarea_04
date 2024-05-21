@@ -1,9 +1,9 @@
 package org.example.capitulo_5;
 
 public class CalculoDelValorDePi {
+    private float i = 1, pi4 = 0, signo = -1;
 
     public void mostrarValorPi() {
-        float i = 1, pi4 = 0, signo = -1;
 
         do {
             signo = -signo; // cambia el signo en cada iteración

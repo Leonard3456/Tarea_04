@@ -1,7 +1,15 @@
 package org.example.capitulo_3;
 
 public class DiasMes {
-    public int mes;
+    private int mes;
+
+    public int getMes() {
+        return mes;
+    }
+
+    public void setMes(int mes) {
+        this.mes = mes;
+    }
 
     public int obtenerDiasEnMes() {
         switch (mes) {
@@ -29,9 +37,9 @@ public class DiasMes {
     public void mostrarDiasEnMes() {
         int dias = obtenerDiasEnMes();
         if (dias != -1) {
-            System.out.println("El mes " + mes + " tiene " + dias + " días.");
+            System.out.println("El mes " + getMes() + " tiene " + dias + " días.");
         } else {
-            System.out.println("Mes inválido: " + mes);
+            System.out.println("Mes inválido: " + getMes());
         }
     }
 

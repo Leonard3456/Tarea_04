@@ -1,31 +1,47 @@
 package org.example.capitulo_3;
 
 public class CalculadorDeCincoFunciones {
-    public double numero1;
-    public double numero2;
+    private double numero1;
+    private double numero2;
+
+    public double getNumero1() {
+        return numero1;
+    }
+
+    public void setNumero1(double numero1) {
+        this.numero1 = numero1;
+    }
+
+    public double getNumero2() {
+        return numero2;
+    }
+
+    public void setNumero2(double numero2) {
+        this.numero2 = numero2;
+    }
 
     public double calcularSuma() {
-        return numero1 + numero2;
+        return getNumero1() + getNumero2();
     }
 
     public double calcularResta() {
-        return numero1 - numero2;
+        return getNumero1() - getNumero2();
     }
 
     public double calcularMultiplicacion() {
-        return numero1 * numero2;
+        return getNumero1() * getNumero2();
     }
 
     public double calcularDivision() {
-        if (numero2 == 0) {
+        if (getNumero2() == 0) {
             System.out.println("Error: división por cero.");
             return Double.NaN; // Retorna Not-a-Number en caso de división por cero
         }
-        return numero1 / numero2;
+        return getNumero1() / getNumero2();
     }
 
     public double calcularPotencia() {
-        return Math.pow(numero1, numero2);
+        return Math.pow(getNumero1(), getNumero2());
     }
 
     public void mostrarResultados() {

@@ -4,16 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcf5dde0-40ab-452b-a51b-37de7c25ff34" name="Changes" comment="refactor 2">
+    <list default="true" id="bcf5dde0-40ab-452b-a51b-37de7c25ff34" name="Changes" comment="refactor 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_1/AreaCilindroRecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_1/AreaCilindroRecto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_1/DistanciaEntreDosPuntos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_1/DistanciaEntreDosPuntos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_1/HipotenusaTrianguloRectangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_1/HipotenusaTrianguloRectangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_1/VolumenCilindroRecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_1/VolumenCilindroRecto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/ClasificarAlumnosSegunPromedio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/ClasificarAlumnosSegunPromedio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/MayorValorTresNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/MayorValorTresNumeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/MontoPagarConDescuento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/MontoPagarConDescuento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/OrdenarMayorMenorTresNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_2/OrdenarMayorMenorTresNumeros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/CalculadorDeCincoFunciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/CalculadorDeCincoFunciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/DiasMes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/DiasMes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/EstacionesAnio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/EstacionesAnio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/SignosZodiaco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_3/SignosZodiaco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/FactorizarNumero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/FactorizarNumero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/IndicarSiEsNumeroPrimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/IndicarSiEsNumeroPrimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/IndicarSiUnNumeroEsPerfecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/IndicarSiUnNumeroEsPerfecto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/LeerNumero_e_InvertirSusCifras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_4/LeerNumero_e_InvertirSusCifras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/CalculoDelValorDePi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/CalculoDelValorDePi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/CantidadNumerosPositivosNegativosParesImparesIngresados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/CantidadNumerosPositivosNegativosParesImparesIngresados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/MaximaAreaDeTerreno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/MaximaAreaDeTerreno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/RaizCuadradaPorMetodoNewton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_5/RaizCuadradaPorMetodoNewton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/EliminaElementosRepetidosEnUnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/EliminaElementosRepetidosEnUnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/LeerNumerosDeUnArrayEImprimirlos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/LeerNumerosDeUnArrayEImprimirlos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/MediaAritmeticaDeUnConjuntoDeDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/MediaAritmeticaDeUnConjuntoDeDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/OrdenamientoPorBurbuja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_7/OrdenamientoPorBurbuja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/DivisoresComunesDeDosNumeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/DivisoresComunesDeDosNumeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/Primeros_m_MultiplosDe_n.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/PrimerosmMultiplosDen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/NumeroPrimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/NumeroPrimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/PrimerosmMultiplosDen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/PrimerosmMultiplosDen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/TeoremaDelCoseno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/capitulo_8/TeoremaDelCoseno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,7 +265,10 @@
       <workItem from="1714065301544" duration="1399000" />
       <workItem from="1714144298358" duration="11034000" />
       <workItem from="1714664161206" duration="8194000" />
-      <workItem from="1714754194445" duration="5453000" />
+      <workItem from="1714754194445" duration="5560000" />
+      <workItem from="1716151800364" duration="3311000" />
+      <workItem from="1716233069891" duration="3888000" />
+      <workItem from="1716260601624" duration="2369000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />
@@ -311,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714674432279</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor 3">
+      <option name="closed" value="true" />
+      <created>1714759932673</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714759932673</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +357,7 @@
     <MESSAGE value="capitulos completos" />
     <MESSAGE value="refactor" />
     <MESSAGE value="refactor 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor 2" />
+    <MESSAGE value="refactor 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor 3" />
   </component>
 </project>

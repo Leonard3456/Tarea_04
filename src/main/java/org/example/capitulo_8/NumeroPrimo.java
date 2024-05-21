@@ -1,6 +1,17 @@
 package org.example.capitulo_8;
 
 public class NumeroPrimo {
+
+    private int numero;
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
     public boolean esPrimo(int n) {
         if (n <= 1) {
             return false;
@@ -13,12 +24,11 @@ public class NumeroPrimo {
         return true;
     }
     public void primo() {
-        int numero = 17;
 
-        if (esPrimo(numero)) {
-            System.out.println(numero + " es un número primo.");
+        if (esPrimo(getNumero())) {
+            System.out.println(getNumero() + " es un número primo.");
         } else {
-            System.out.println(numero + " no es un número primo.");
+            System.out.println(getNumero() + " no es un número primo.");
         }
     }
 }

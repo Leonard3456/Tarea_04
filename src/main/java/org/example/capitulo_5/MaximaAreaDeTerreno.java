@@ -1,9 +1,8 @@
 package org.example.capitulo_5;
 
 public class    MaximaAreaDeTerreno {
-
+    private float x, xmax = 0, area, areamax, inc = 0.0001f;
     public void MostrarAreaDeTerreno() {
-        float x, xmax = 0, area, areamax, inc = 0.0001f;
         x = 0;
         areamax = 0;
 

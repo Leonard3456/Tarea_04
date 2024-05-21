@@ -1,7 +1,16 @@
 package org.example.capitulo_3;
 
 public class EstacionesAnio {
-    public int mes;
+    private int mes;
+
+    public int getMes() {
+        return mes;
+    }
+
+    public void setMes(int mes) {
+        this.mes = mes;
+    }
+
     public String determinarEstacion() {
         switch (mes) {
             case 1:  // Enero
@@ -27,7 +36,7 @@ public class EstacionesAnio {
 
     public void mostrarEstacion() {
         String estacion = determinarEstacion();
-        System.out.println("El mes " + mes + " corresponde a la estación: " + estacion);
+        System.out.println("El mes " + getMes() + " corresponde a la estación: " + estacion);
     }
 
 }

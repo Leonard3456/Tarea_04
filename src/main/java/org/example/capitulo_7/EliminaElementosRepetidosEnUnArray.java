@@ -1,9 +1,17 @@
 package org.example.capitulo_7;
 
 public class EliminaElementosRepetidosEnUnArray {
+    private int[] lista = {1, 2, 3, 4, 2, 3, 5, 6, 7, 7, 8};
+
+    public int[] getLista() {
+        return lista;
+    }
+
+    public void setLista(int[] lista) {
+        this.lista = lista;
+    }
 
     public void mostrarElementos() {
-        int[] lista = {1, 2, 3, 4, 2, 3, 5, 6, 7, 7, 8};
 
         int n = lista.length;
 
