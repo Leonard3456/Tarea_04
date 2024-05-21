@@ -144,8 +144,9 @@ public class Main {
         cant.MostrarNumeros();
 
         System.out.println("-------------Este es el cuarto archivo del quinto Capitulo----------------");
-        MaximaAreaDeTerreno max = new MaximaAreaDeTerreno();
-        max.MostrarAreaDeTerreno();
+        MaximaAreaDeTerreno maxArea = new MaximaAreaDeTerreno();
+        maxArea.setLongitudMaxima(30.0f); // Cambiar este valor para otro cálculo del área máxima
+        maxArea.mostrarAreaDeTerreno();
 
         System.out.println("-------------Este es el primer archivo del sexto Capitulo----------------");
         MayorDe_n_Numeros mayor = new MayorDe_n_Numeros();
